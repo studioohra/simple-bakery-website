@@ -1,9 +1,115 @@
 .landingPage {
-  table {
-    border: 1px solid blue;
 
-    th {
-      font-weight: 800;
+}
+
+//=======================================
+//== Header
+//=======================================
+
+header {
+  background: #eeebec;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 40px;
+
+  .logo {
+  }
+}
+
+.globalNavigation {
+  margin-left: auto;
+  ul {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+    li {
+      padding: 0 40px;
+
+      a {
+        color: #7a6666;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &.active {
+          color: #cb3362;
+        }
+      }
     }
   }
 }
+
+//=======================================
+
+
+//=======================================
+//== Landing Image
+//=======================================
+
+.landingImage {
+  position: relative;
+  background: #aaa;
+  width: 100%;
+  height: 480px;
+}
+
+.sticker {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+
+  width: 128px;
+  height: 128px;
+
+  background: #c0ff33;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+
+
+  p {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+
+
+    background: #cb3362;
+    width: 128px;
+    height: 128px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=======================================
+//=======================================
